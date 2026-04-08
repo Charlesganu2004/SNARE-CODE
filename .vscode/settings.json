@@ -1,0 +1,37 @@
+{
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "python.terminal.activateEnvironment": false,
+    "micropico.openOnStart": true,
+    "python.analysis.typeshedPaths": [
+        "~/.micropico-stubs/included"
+    ],
+    "python.analysis.extraPaths": [
+        "~/.micropico-stubs/included"
+    ],
+    "cSpell.words": [
+        "wlan",
+        "essid",
+        "isconnected",
+        "Micropython",
+        "rp2",
+        "UART",
+        "readfrom",
+        "ifconfig",
+        "baudrate",
+        "stby",
+        "STBY",
+        "Pico",
+        "duty_u16",
+        "freq",
+        "I2C",
+        "SDA",
+        "SCL",
+        "TRIG",
+        "ECHO",
+        "creds"
+    ]
+}
