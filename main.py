@@ -34,7 +34,7 @@ green_led = Pin(config.GREEN_LED_PIN, Pin.OUT) # onboard Pico LED
 
 # --- Constants ---
 DATA_LIMIT = 50
-ROTATION_TIME = 80  # seconds for full 360° rotation
+ROTATION_TIME = 80  # seconds for full 360 degrees rotation
 
 # --- Global stop flag ---
 stop_flag = False
