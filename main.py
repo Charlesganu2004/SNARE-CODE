@@ -160,7 +160,7 @@ while True:
             time.sleep(0.1)
         press_duration = time.time() - press_start
 
-        if press_duration >= 15:
+        if press_duration >= 10:
             long_press_action()  # Long press -> Wi-Fi + Bluetooth
         elif press_duration >= 5:
             scan_with_rotation() # Short press -> scan again
