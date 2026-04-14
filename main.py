@@ -86,7 +86,7 @@ def scan_with_rotation():
         green_off(); time.sleep(0.5)
 
     red_on()               # solid red during scan
-    motor.set_speed_percent(40)  # slow rotation
+    motor.set_speed_percent(70)  # slow rotation
     start = time.time()
 
     while time.time() - start < ROTATION_TIME:
